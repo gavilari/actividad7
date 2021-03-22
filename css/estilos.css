@@ -1,0 +1,43 @@
+body{
+    background-color: lightcyan;
+}
+
+h1 {
+    margin: 15px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.contenedor {
+   margin: 50px auto;
+   padding: 15px 70px;
+   width: 60%;
+   border: solid 3px blueviolet;
+}
+
+.page-footer{
+    padding-top:20px;
+    color:#fff;
+    background-color:#ee6e73
+}
+.page-footer .footer-copyright{
+    overflow:hidden;
+    min-height:50px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    padding:10px 0px;
+    color:rgba(255,255,255,0.8);
+    background-color:rgba(51,51,51,0.08)
+}
+
+.grey-text.text-lighten-3{color:#eee !important}
